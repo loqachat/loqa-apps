@@ -1,0 +1,28 @@
+# Rust build artifacts
+/src-tauri/target/
+
+# Generated platform projects (desktop + mobile)
+/src-tauri/gen/
+
+# Signing keys (NEVER commit private keys)
+/keys/loqa-update.key
+
+# Build artifacts & logs
+*.msix
+*.log
+build_output.txt
+
+# Signing infrastructure
+/signing/
+
+# MSIX staging (build output)
+/msix-staging/
+
+# Node.js
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,12 @@
+{
+  "name": "loqa-desktop",
+  "version": "0.1.1",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "tauri": "cargo tauri",
+    "dev": "cargo tauri dev",
+    "build": "cargo tauri build",
+    "build:debug": "cargo tauri build --debug"
+  }
+}

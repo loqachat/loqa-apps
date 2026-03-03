@@ -1,0 +1,76 @@
+{
+  "productName": "Loqa",
+  "version": "0.1.1",
+  "identifier": "chat.loqa.tauri",
+  "build": {
+    "devUrl": "https://app.loqa.chat",
+    "frontendDist": "https://app.loqa.chat"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "security": {
+      "csp": "default-src 'self' https://app.loqa.chat; connect-src 'self' https: wss: blob: data:; script-src 'self' 'wasm-unsafe-eval' https://app.loqa.chat; style-src 'self' 'unsafe-inline' https:; style-src-elem 'self' 'unsafe-inline' https:; font-src * data:; img-src * data: blob:; media-src * data: blob:; worker-src 'self' blob:; frame-src 'none'"
+    },
+    "windows": [
+      {
+        "label": "main",
+        "title": "Loqa",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 940,
+        "minHeight": 560,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true,
+        "center": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "iOS": {
+      "minimumSystemVersion": "13.0"
+    },
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": "",
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper"
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "active": true,
+      "dialog": true,
+      "endpoints": [
+        "https://app.loqa.chat/api/desktop/update/{{target}}/{{arch}}/{{current_version}}"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUyNTg5QjA3QzMyMTczOEEKUldTS2N5SERCNXRZNHB6bkhUWXpvV1BFcWJMNjFyd0l2RlZCQmUvUkxuNmx3eWJ6WThCY3hTaFYK"
+    },
+    "deep-link": {
+      "desktop": {
+        "schemes": [
+          "loqa"
+        ]
+      },
+      "mobile": [
+        {
+          "host": "app.loqa.chat",
+          "pathPrefix": [
+            "/open"
+          ]
+        }
+      ]
+    }
+  }
+}

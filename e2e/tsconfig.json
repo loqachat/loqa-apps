@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
+        "outDir": "dist",
+        "rootDir": ".",
+        "types": [
+            "@wdio/mocha-framework",
+            "node"
+        ]
+    },
+    "include": [
+        "*.ts",
+        "specs/**/*.ts"
+    ]
+}

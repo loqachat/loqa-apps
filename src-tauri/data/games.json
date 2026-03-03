@@ -1,0 +1,258 @@
+[
+    {
+        "exe": "valorant",
+        "name": "Valorant"
+    },
+    {
+        "exe": "csgo",
+        "name": "Counter-Strike: GO"
+    },
+    {
+        "exe": "cs2",
+        "name": "Counter-Strike 2"
+    },
+    {
+        "exe": "overwatch",
+        "name": "Overwatch 2"
+    },
+    {
+        "exe": "r5apex",
+        "name": "Apex Legends"
+    },
+    {
+        "exe": "fortniteclient",
+        "name": "Fortnite"
+    },
+    {
+        "exe": "cod",
+        "name": "Call of Duty"
+    },
+    {
+        "exe": "destiny2",
+        "name": "Destiny 2"
+    },
+    {
+        "exe": "tf2",
+        "name": "Team Fortress 2"
+    },
+    {
+        "exe": "rainbow6",
+        "name": "Rainbow Six Siege"
+    },
+    {
+        "exe": "r6-siege",
+        "name": "Rainbow Six Siege"
+    },
+    {
+        "exe": "pubg",
+        "name": "PUBG"
+    },
+    {
+        "exe": "tslgame",
+        "name": "PUBG"
+    },
+    {
+        "exe": "league of legends",
+        "name": "League of Legends"
+    },
+    {
+        "exe": "leagueclient",
+        "name": "League of Legends"
+    },
+    {
+        "exe": "dota2",
+        "name": "Dota 2"
+    },
+    {
+        "exe": "ffxiv",
+        "name": "Final Fantasy XIV"
+    },
+    {
+        "exe": "wow",
+        "name": "World of Warcraft"
+    },
+    {
+        "exe": "guildwars2",
+        "name": "Guild Wars 2"
+    },
+    {
+        "exe": "newworld",
+        "name": "New World"
+    },
+    {
+        "exe": "eldenring",
+        "name": "Elden Ring"
+    },
+    {
+        "exe": "cyberpunk2077",
+        "name": "Cyberpunk 2077"
+    },
+    {
+        "exe": "baldursgate3",
+        "name": "Baldur's Gate 3"
+    },
+    {
+        "exe": "bg3",
+        "name": "Baldur's Gate 3"
+    },
+    {
+        "exe": "starfield",
+        "name": "Starfield"
+    },
+    {
+        "exe": "gta5",
+        "name": "GTA V"
+    },
+    {
+        "exe": "gtav",
+        "name": "GTA V"
+    },
+    {
+        "exe": "rdr2",
+        "name": "Red Dead Redemption 2"
+    },
+    {
+        "exe": "witcher3",
+        "name": "The Witcher 3"
+    },
+    {
+        "exe": "hogwartslegacy",
+        "name": "Hogwarts Legacy"
+    },
+    {
+        "exe": "palworld",
+        "name": "Palworld"
+    },
+    {
+        "exe": "stellaris",
+        "name": "Stellaris"
+    },
+    {
+        "exe": "eu4",
+        "name": "Europa Universalis IV"
+    },
+    {
+        "exe": "ck3",
+        "name": "Crusader Kings III"
+    },
+    {
+        "exe": "hoi4",
+        "name": "Hearts of Iron IV"
+    },
+    {
+        "exe": "civ6",
+        "name": "Civilization VI"
+    },
+    {
+        "exe": "civ7",
+        "name": "Civilization VII"
+    },
+    {
+        "exe": "factorio",
+        "name": "Factorio"
+    },
+    {
+        "exe": "minecraft",
+        "name": "Minecraft"
+    },
+    {
+        "exe": "javaw",
+        "name": "Minecraft"
+    },
+    {
+        "exe": "terraria",
+        "name": "Terraria"
+    },
+    {
+        "exe": "satisfactory",
+        "name": "Satisfactory"
+    },
+    {
+        "exe": "forzahorizon5",
+        "name": "Forza Horizon 5"
+    },
+    {
+        "exe": "forzahorizon4",
+        "name": "Forza Horizon 4"
+    },
+    {
+        "exe": "forzamotorsport",
+        "name": "Forza Motorsport"
+    },
+    {
+        "exe": "hollowknight",
+        "name": "Hollow Knight"
+    },
+    {
+        "exe": "celeste",
+        "name": "Celeste"
+    },
+    {
+        "exe": "fifa",
+        "name": "FIFA"
+    },
+    {
+        "exe": "rocketleague",
+        "name": "Rocket League"
+    },
+    {
+        "exe": "osu!",
+        "name": "osu!"
+    },
+    {
+        "exe": "vrchat",
+        "name": "VRChat"
+    },
+    {
+        "exe": "obs64",
+        "name": "OBS Studio"
+    },
+    {
+        "exe": "obs32",
+        "name": "OBS Studio"
+    },
+    {
+        "exe": "streamlabs",
+        "name": "Streamlabs"
+    },
+    {
+        "exe": "spotify",
+        "name": "Spotify"
+    },
+    {
+        "exe": "code",
+        "name": "Visual Studio Code"
+    },
+    {
+        "exe": "devenv",
+        "name": "Visual Studio"
+    },
+    {
+        "exe": "rider64",
+        "name": "JetBrains Rider"
+    },
+    {
+        "exe": "idea64",
+        "name": "IntelliJ IDEA"
+    },
+    {
+        "exe": "webstorm64",
+        "name": "WebStorm"
+    },
+    {
+        "exe": "figma",
+        "name": "Figma"
+    },
+    {
+        "exe": "blender",
+        "name": "Blender"
+    },
+    {
+        "exe": "unity",
+        "name": "Unity"
+    },
+    {
+        "exe": "unrealengine",
+        "name": "Unreal Engine"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "name": "loqa-desktop-e2e",
+    "version": "1.0.0",
+    "private": true,
+    "description": "E2E tests for the Loqa desktop app (Tauri + WebDriverIO)",
+    "scripts": {
+        "test": "wdio run wdio.conf.ts",
+        "test:headed": "wdio run wdio.conf.ts --headed"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^9",
+        "@wdio/local-runner": "^9",
+        "@wdio/mocha-framework": "^9",
+        "@wdio/spec-reporter": "^9",
+        "edgedriver": "^6.3.0",
+        "ts-node": "^10",
+        "typescript": "^5"
+    }
+}
