@@ -1,6 +1,6 @@
 {
   "productName": "Loqa",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "identifier": "chat.loqa.tauri",
   "build": {
     "devUrl": "https://app.loqa.chat",

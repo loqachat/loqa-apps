@@ -15,6 +15,8 @@ pub mod commands;
 pub mod settings;
 #[cfg(desktop)]
 pub mod tray;
+#[cfg(desktop)]
+pub mod rpc_server;
 
 pub fn build_app() -> tauri::Builder<tauri::Wry> {
     let builder = tauri::Builder::default();
@@ -82,6 +84,7 @@ pub fn build_app() -> tauri::Builder<tauri::Wry> {
     #[cfg(desktop)]
     let builder = builder.setup(|app| {
         tray::setup(app)?;
+        rpc_server::start(app.handle().clone());
         Ok(())
     });
 
